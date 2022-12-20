@@ -1,0 +1,100 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: gitg
+Source: https://download.gnome.org/sources/gitg/
+Comment:
+ This package was debianized by Jonny Lamb <jonny@debian.org>
+ on Sat, 14 Feb 2009 16:44:16 +0000.
+ .
+ Upstream Vcs-Git: https://gitlab.gnome.org/GNOME/gitg
+
+Files: *
+Copyright:
+    2001      Eazel, Inc
+    1989,1991,1996-2014 Free Software Foundation, Inc
+    2012-2016 Ignacio Casal Quinteiro <icq@gnome.org>
+    2009-2016 Jesse van den Kieboom <jessevdk@gnome.org>
+    2013      Sindhu S
+License: GPL-2+
+
+Files: contrib/ide/*
+Copyright: 2015 Christian Hergert <christian@hergert.me>
+License: GPL-3+
+
+Files: contrib/xml/*
+Copyright: 2009 Christian Hergert <chris@dronelabs.com>
+License: LGPL-2+
+
+Files: data/org.gnome.gitg.appdata.xml.in.in
+Copyright: 2013 Sindhu S
+License: CC0
+
+Files: debian/*
+Copyright: 2009-2011 Jonny Lamb <jonny@debian.org>
+           2012-2016 Dmitry Smirnov <onlyjob@debian.org>
+License: GPL-2+
+
+License: CC0
+ Certain owners wish to permanently relinquish those rights to a Work for
+ the purpose of contributing to a commons of creative, cultural and
+ scientific works ("Commons") that the public can reliably and without
+ fear of later claims of infringement build upon, modify, incorporate in
+ other works, reuse and redistribute as freely as possible in any form
+ whatsoever and for any purposes, including without limitation commercial
+ purposes. These owners may contribute to the Commons to promote the
+ ideal of a free culture and the further production of creative, cultural
+ and scientific works, or to gain reputation or greater distribution for
+ their Work in part through the use and efforts of others.
+ .
+ For these and/or other purposes and motivations, and without any
+ expectation of additional consideration or compensation, the person
+ associating CC0 with a Work (the "Affirmer"), to the extent that he or
+ she is an owner of Copyright and Related Rights in the Work, voluntarily
+ elects to apply CC0 to the Work and publicly distribute the Work under
+ its terms, with knowledge of his or her Copyright and Related Rights in
+ the Work and the meaning and intended legal effect of CC0 on those
+ rights.
+ . .
+ The complete text of the Creative Commons 0 1.0 Universal
+ can be found in `/usr/share/common-licenses/CC0-1.0'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ ․
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ ․
+ On Debian systems, the complete text of the GNU General Public
+ License Version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ ․
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ ․
+ On Debian systems, the complete text of the GNU General Public
+ License Version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ ․
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ ․
+ On Debian systems, the complete text of the GNU Library General Public
+ License Version 2 can be found in "/usr/share/common-licenses/LGPL-2".

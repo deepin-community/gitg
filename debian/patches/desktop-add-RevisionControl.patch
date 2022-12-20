@@ -1,0 +1,23 @@
+From: Jonny Lamb <jonny@debian.org>
+Date: Mon, 10 Feb 2014 17:39:00 -0500
+Subject: add "RevisionControl" to desktop file Categories
+
+Last-Update: 2014-02-10
+Reviewed-By: Dmitry Smirnov <onlyjob@member.fsf.org>
+Forwarded: no
+---
+ data/org.gnome.gitg.desktop.in.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/org.gnome.gitg.desktop.in.in b/data/org.gnome.gitg.desktop.in.in
+index b83e0ee..9ecc2d5 100644
+--- a/data/org.gnome.gitg.desktop.in.in
++++ b/data/org.gnome.gitg.desktop.in.in
+@@ -7,6 +7,6 @@ Terminal=false
+ Type=Application
+ # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+ Icon=@icon@
+-Categories=GNOME;GTK;Development;
++Categories=GNOME;GTK;Development;RevisionControl;
+ MimeType=x-scheme-handler/gitg;
+ #X-GNOME-DocPath=gitg/gitg.xml
