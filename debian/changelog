@@ -1,3 +1,16 @@
+gitg (3.32.1-deepin2) unstable; urgency=medium
+
+  [ sisungo ]
+  * Fixes these bugs that prevents the package to be built:
+    - Meson no longer accepts positional arguments for i18n.merge_file
+    - Newer system Vala provides a GIO that is incompatible with repo GLib
+
+  [ Tianyu Chen ]
+  * Drop unused B-D on libwebkit2gtk-4.0-dev.
+  * Add B-D on libsoup2.4-dev.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Fri, 19 Sep 2025 15:03:22 +0800
+
 gitg (3.32.1-deepin1) unstable; urgency=medium
 
   * Rebuild
