@@ -1,1 +1,3 @@
 desktop-add-RevisionControl.patch
+0001-fix-meson-no-longer-accepts-positional-arguments-for.patch
+0001-fix-the-glib-vapi-found-in-repo-is-incompatible-with.patch
